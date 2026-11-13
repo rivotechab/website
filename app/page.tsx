@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CtaBand } from "@/components/CtaBand";
 import { Logo } from "@/components/Logo";
+import { ServiceIcon } from "@/components/ServiceIcon";
 import { StructuredData } from "@/components/StructuredData";
 import { SERVICES } from "@/lib/site";
 
@@ -33,13 +34,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section" id="services" aria-labelledby="services-title">
+      <section className="section band-dark" id="services" aria-labelledby="services-title">
         <h2 id="services-title">What we do</h2>
         <div className="section-body">
           <p className="section-lead">Every consultant we present has been interviewed by us and matched to the role you need.</p>
           <ul className="services">
             {SERVICES.map((service) => (
               <li className="service" key={service.title}>
+                <ServiceIcon name={service.icon} />
                 <h3>{service.title}</h3>
                 <p>{service.text}</p>
                 <ul className="roles" aria-label="Roles">
