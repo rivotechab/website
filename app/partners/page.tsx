@@ -13,10 +13,9 @@ export default function PartnersPage() {
     <>
       <header className="page-head">
         <p className="eyebrow">Partners</p>
-        <h1>Consultants for your team, directly or through your broker</h1>
+        <h1>Hire consultants your way</h1>
         <p className="lead">
-          For companies that need IT consultants, and for brokers and consultancies looking for a partner who can
-          deliver.
+          Directly, through your broker, or as a subcontractor to your own consultancy.
         </p>
       </header>
 

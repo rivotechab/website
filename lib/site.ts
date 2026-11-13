@@ -39,7 +39,7 @@ export const SERVICES = [
     roles: ["Data engineer", "Data scientist", "AI engineer", "LLM engineer"],
   },
   {
-    title: "Quality assurance & testing",
+    title: "QA & testing",
     text: "Testers who make sure your releases work, with clear test plans, hands-on testing and automated test suites.",
     roles: ["QA engineer", "Test automation engineer"],
   },

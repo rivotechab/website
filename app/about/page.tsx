@@ -23,11 +23,12 @@ export default function AboutPage() {
         <h2 id="why-title">Why we started</h2>
         <div className="section-body prose">
           <p>
-            Every year, talented people finish IT degrees at Swedish universities and then struggle to land their first
-            real role in the industry. Many end up in jobs far from what they studied, and their skills go to waste.
+            Swedish universities turn out skilled IT talent every year, from all over the world. We believe skills, not
+            connections, should open doors, and that the best teams are built by giving good people a real chance to
+            show what they can do.
           </p>
           <p>
-            We started Rivo to help change that. We connect skilled IT professionals, including international graduates who
+            That&apos;s why we started Rivo. We connect skilled IT professionals, including international graduates who
             studied here, with teams that need them, and we support them as they grow.
           </p>
           <p>
