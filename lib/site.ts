@@ -20,7 +20,7 @@ export const NAV = [
 export const SERVICES = [
   {
     title: "Software development",
-    text: "Developers who build and maintain the systems your business runs on, from APIs and services to the screens your users see.",
+    text: "Developers who build and maintain the systems your business runs on, from APIs and services to the interfaces your users interact with.",
     roles: ["Backend developer", "Frontend developer", "Fullstack developer"],
   },
   {

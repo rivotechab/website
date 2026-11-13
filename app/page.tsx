@@ -29,7 +29,7 @@ export default function HomePage() {
       <section className="section" id="services" aria-labelledby="services-title">
         <h2 id="services-title">What we do</h2>
         <div className="section-body">
-          <p className="section-lead">We place consultants in four areas. Tell us the role you need to fill.</p>
+          <p className="section-lead">Every consultant we present has been interviewed by us and matched to the role you need.</p>
           <ul className="services">
             {SERVICES.map((service) => (
               <li className="service" key={service.title}>
