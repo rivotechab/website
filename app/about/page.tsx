@@ -56,7 +56,7 @@ export default function AboutPage() {
             </li>
             <li>
               <h3>Open to everyone</h3>
-              <p>We hire on skills and merit. Your background and where you come from do not decide.</p>
+              <p>We hire on skills and merit, and give every application the same fair look.</p>
             </li>
           </ul>
         </div>
