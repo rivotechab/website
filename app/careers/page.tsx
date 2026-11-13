@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CtaBand } from "@/components/CtaBand";
-import { ServiceIcon } from "@/components/ServiceIcon";
 import { SERVICES, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -35,7 +34,6 @@ export default function CareersPage() {
           <ul className="services">
             {SERVICES.map((service) => (
               <li className="service" key={service.title}>
-                <ServiceIcon name={service.icon} />
                 <h3>{service.title}</h3>
                 <ul className="roles" aria-label="Roles">
                   {service.roles.map((role) => (
