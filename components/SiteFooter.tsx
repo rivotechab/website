@@ -43,7 +43,7 @@ export function SiteFooter() {
         </div>
         <div>
           <h2>Contact</h2>
-          <ul>
+          <ul className="footer-contact">
             <li>
               <span className="footer-label">Partners</span>
               <a href={`mailto:${SITE.emails.partners}`}>{SITE.emails.partners}</a>
