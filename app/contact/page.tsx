@@ -5,6 +5,7 @@ import { ContactForms } from "./ContactForms";
 export const metadata: Metadata = {
   title: "Contact",
   description: "Contact Rivo Tech AB about a consultant assignment, or send us your CV.",
+  alternates: { canonical: "/contact/" },
 };
 
 export default function ContactPage() {

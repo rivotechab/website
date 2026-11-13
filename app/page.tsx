@@ -1,11 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CtaBand } from "@/components/CtaBand";
 import { Logo } from "@/components/Logo";
+import { StructuredData } from "@/components/StructuredData";
 import { SERVICES } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   return (
     <>
+      <StructuredData />
       <section className="hero" aria-labelledby="hero-title">
         <Logo className="hero-mark" />
         <div className="hero-text">

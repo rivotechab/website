@@ -4,6 +4,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy",
   description: "How Rivo Tech AB handles personal data from candidates, partners and website visitors.",
+  alternates: { canonical: "/privacy/" },
 };
 
 export default function PrivacyPage() {

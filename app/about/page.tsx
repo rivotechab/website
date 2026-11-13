@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Rivo Tech AB is an IT consultancy founded in Stockholm in 2025 to connect skilled people with the teams that need them.",
+  alternates: { canonical: "/about/" },
 };
 
 export default function AboutPage() {
@@ -13,7 +14,7 @@ export default function AboutPage() {
     <>
       <header className="page-head">
         <p className="eyebrow">About</p>
-        <h1>About Rivo</h1>
+        <h1>About Rivo Tech</h1>
         <p className="lead">
           Rivo Tech AB is an IT consultancy founded in Stockholm in {SITE.founded}.
         </p>

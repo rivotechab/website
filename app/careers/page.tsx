@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Careers",
   description:
     "Rivo Tech AB looks for IT professionals who want client assignments in Sweden. Send us your CV.",
+  alternates: { canonical: "/careers/" },
 };
 
 export default function CareersPage() {

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Partners",
   description:
     "Hire IT consultants from Rivo Tech AB directly, through your broker or framework agreement, or as a subcontracting partner.",
+  alternates: { canonical: "/partners/" },
 };
 
 export default function PartnersPage() {
