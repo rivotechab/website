@@ -12,7 +12,7 @@ export default function HomePage() {
           <p className="eyebrow">Rivo Tech AB</p>
           <h1 id="hero-title">IT consultants in Stockholm</h1>
           <p className="lead">
-            Developers, cloud and data engineers, and architects for your team. On-site, hybrid or remote, hired
+            Developers, testers, designers, engineers and architects for your team. On-site, hybrid or remote, hired
             directly or through your broker.
           </p>
           <div className="actions">
@@ -63,8 +63,8 @@ export default function HomePage() {
             <div className="door">
               <h3>Careers</h3>
               <p>
-                Developers, engineers and architects who want client assignments in Sweden, from experienced
-                consultants to recent graduates.
+                IT professionals who want client assignments in Sweden, from experienced consultants to recent
+                graduates.
               </p>
               <Link className="btn btn-secondary" href="/careers/">
                 How we hire

@@ -176,7 +176,7 @@ function CareersForm() {
 
   return (
     <form className="form-panel" onSubmit={onSubmit}>
-      <p className="form-intro">For developers, engineers and architects who want client assignments in Sweden.</p>
+      <p className="form-intro">For IT professionals who want client assignments in Sweden.</p>
       <div className="form-grid">
         <div className="field">
           <label htmlFor="c-name">Name</label>

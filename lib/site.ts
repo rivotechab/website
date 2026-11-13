@@ -24,6 +24,11 @@ export const SERVICES = [
     roles: ["Backend developer", "Frontend developer", "Fullstack developer"],
   },
   {
+    title: "Mobile development",
+    text: "Developers who build native and cross-platform apps for iOS and Android, from first release to ongoing updates.",
+    roles: ["Android developer", "iOS developer", "Cross-platform developer"],
+  },
+  {
     title: "Cloud, infrastructure & DevOps",
     text: "Engineers who set up and run your cloud platforms, automate builds and releases, and keep environments stable.",
     roles: ["Cloud engineer", "Infrastructure engineer", "DevOps engineer"],
@@ -32,6 +37,21 @@ export const SERVICES = [
     title: "Data & AI",
     text: "Engineers and scientists who build data pipelines, find answers in your data and put language models to work in your products.",
     roles: ["Data engineer", "Data scientist", "AI engineer", "LLM engineer"],
+  },
+  {
+    title: "Quality assurance & testing",
+    text: "Testers who make sure your releases work, with clear test plans, hands-on testing and automated test suites.",
+    roles: ["QA engineer", "Test automation engineer"],
+  },
+  {
+    title: "UX & UI design",
+    text: "Designers who learn how people use your product and turn it into clear, usable interfaces.",
+    roles: ["UX designer", "UI designer"],
+  },
+  {
+    title: "Agile & delivery",
+    text: "People who keep teams focused and delivering, from priorities and planning to clearing the way when work gets stuck.",
+    roles: ["Scrum master", "Product owner", "Project manager"],
   },
   {
     title: "Solution architecture",

@@ -27,8 +27,8 @@ export default function AboutPage() {
             real role in the industry. Many end up in jobs far from what they studied, and their skills go to waste.
           </p>
           <p>
-            We started Rivo to help change that. We connect skilled developers, engineers and architects, including
-            international graduates who studied here, with teams that need them, and we support them as they grow.
+            We started Rivo to help change that. We connect skilled IT professionals, including international graduates who
+            studied here, with teams that need them, and we support them as they grow.
           </p>
           <p>
             For our clients, that means consultants who are motivated, well prepared and matched to the role. For our

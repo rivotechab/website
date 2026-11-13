@@ -17,7 +17,7 @@ const ubuntu = localFont({
 });
 
 const description =
-  "Rivo Tech AB is an IT consultancy in Stockholm. Developers, cloud and data engineers, and architects for client assignments, on-site, hybrid or remote.";
+  "Rivo Tech AB is an IT consultancy in Stockholm. Developers, testers, designers, engineers, architects and agile leads for client assignments, on-site, hybrid or remote.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE.name,
     title: "Rivo Tech AB – IT consultants in Stockholm",
-    description: "Developers, cloud and data engineers, and architects for your team.",
+    description: "Developers, testers, designers, engineers and architects for your team.",
     images: [{ url: "/og-image.png", width: 1200, height: 675 }],
   },
 };

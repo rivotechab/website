@@ -31,7 +31,8 @@ export default function PartnersPage() {
             <li>
               <h3>Through your broker</h3>
               <p>
-                Already buying through a broker or a framework agreement? We work through the channel you use today.
+                Hire through a broker or framework agreement? We can work through them, so you don&apos;t need a new
+                supplier agreement.
               </p>
             </li>
             <li>
@@ -41,7 +42,7 @@ export default function PartnersPage() {
             <li>
               <h3>Our areas</h3>
               <p>
-                Software development, cloud and DevOps, data and AI, and solution architecture.{" "}
+                Development, testing, design, cloud, data and AI, agile delivery and architecture.{" "}
                 <Link href="/#services">See the roles we cover</Link>.
               </p>
             </li>

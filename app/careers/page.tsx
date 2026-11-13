@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CtaBand } from "@/components/CtaBand";
-import { SITE } from "@/lib/site";
+import { SERVICES, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Rivo Tech AB looks for developers, engineers and architects who want client assignments in Sweden. Send us your CV.",
+    "Rivo Tech AB looks for IT professionals who want client assignments in Sweden. Send us your CV.",
 };
 
 export default function CareersPage() {
@@ -16,8 +16,9 @@ export default function CareersPage() {
         <p className="eyebrow">Careers</p>
         <h1>Work with us</h1>
         <p className="lead">
-          We look for developers, engineers and architects who want client assignments in Sweden. Experienced
-          consultants and recent graduates are both welcome, including international graduates who studied here.
+          We look for IT professionals who want client assignments in Sweden: developers, testers, designers,
+          engineers, architects and agile leads. Experienced consultants and recent graduates are both welcome,
+          including international graduates who studied here.
         </p>
         <div className="actions">
           <Link className="btn btn-primary" href="/contact/#careers">
@@ -29,23 +30,17 @@ export default function CareersPage() {
       <section className="section" aria-labelledby="areas-title">
         <h2 id="areas-title">Where you fit</h2>
         <div className="section-body">
-          <ul className="points">
-            <li>
-              <h3>Software development</h3>
-              <p>Backend, frontend and fullstack developers.</p>
-            </li>
-            <li>
-              <h3>Cloud, infrastructure & DevOps</h3>
-              <p>Cloud, infrastructure and DevOps engineers.</p>
-            </li>
-            <li>
-              <h3>Data & AI</h3>
-              <p>Data engineers, data scientists, AI engineers and LLM engineers.</p>
-            </li>
-            <li>
-              <h3>Solution architecture</h3>
-              <p>Solution architects.</p>
-            </li>
+          <ul className="services">
+            {SERVICES.map((service) => (
+              <li className="service" key={service.title}>
+                <h3>{service.title}</h3>
+                <ul className="roles" aria-label="Roles">
+                  {service.roles.map((role) => (
+                    <li key={role}>{role}</li>
+                  ))}
+                </ul>
+              </li>
+            ))}
           </ul>
         </div>
       </section>
