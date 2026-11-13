@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   },
   description,
   icons: { icon: { url: "/favicon.svg", type: "image/svg+xml" } },
+  verification: { google: "DWjpNRMuuOCGvmSoZysUEbw2DxXIAYYnQoO1qR9boFY" },
   openGraph: {
     type: "website",
     siteName: SITE.name,
